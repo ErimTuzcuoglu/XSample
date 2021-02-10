@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.0.78" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Category\Commands" />
+      <Folder Include="Category\Queries" />
+      <Folder Include="Countries\Commands" />
+      <Folder Include="Products\Commands" />
+      <Folder Include="Products\Queries" />
+      <Folder Include="SubCategory\Commands" />
+      <Folder Include="SubCategory\Queries" />
+    </ItemGroup>
+
+</Project>
