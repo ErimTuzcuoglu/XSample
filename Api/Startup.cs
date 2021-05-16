@@ -1,5 +1,4 @@
 using Infrastructure.Extension;
-using Infrastructure.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -20,8 +19,10 @@ namespace XSample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            ConfigureServiceContainer.EnsureDatabaseAndStartMigrations(Configuration);
+
             services.AddControllers();
-            services.AddServices(Configuration);
+            ConfigureServiceContainer.AddServices(services, Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,12 +40,8 @@ namespace XSample
             app.UseRouting();
 
             app.UseAuthorization();
-            
-            app.UseMiddleware<ResponseWrapper>();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
-
-            app.AddConfiguration();
         }
     }
 }

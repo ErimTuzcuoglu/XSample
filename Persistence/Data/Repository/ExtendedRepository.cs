@@ -11,10 +11,10 @@ namespace Persistence.Data.Repository
     {
         private readonly string _tableName;
 
-        public ExtendedRepository(IDbTransaction transaction, IConfiguration configuration) : base(transaction,
-            configuration)
+        public ExtendedRepository(IDbConnection connection, IDbTransaction transaction, IConfiguration configuration) :
+            base(connection, transaction, configuration)
         {
-            _tableName = typeof(T).GetType().Name;
+            _tableName = typeof(T).Name;
         }
 
         public async Task SoftDeleteRowAsync(Guid id)

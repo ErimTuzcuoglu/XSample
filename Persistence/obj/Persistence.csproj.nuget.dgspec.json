@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/erim/Desktop/XSample/Persistence/Persistence.csproj": {}
+    "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj": {}
   },
   "projects": {
-    "/home/erim/Desktop/XSample/Application/Application.csproj": {
+    "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/erim/Desktop/XSample/Application/Application.csproj",
-        "projectName": "Application",
-        "projectPath": "/home/erim/Desktop/XSample/Application/Application.csproj",
+        "projectUniqueName": "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj",
         "packagesPath": "/home/erim/.nuget/packages/",
-        "outputPath": "/home/erim/Desktop/XSample/Application/obj/",
+        "outputPath": "/home/erim/Desktop/Repo/XSample/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/erim/.nuget/NuGet/NuGet.Config"
@@ -38,11 +38,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.78, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "MediatR": {
               "target": "Package",
               "version": "[9.0.0, )"
             }
@@ -66,138 +62,14 @@
         }
       }
     },
-    "/home/erim/Desktop/XSample/Domain/Domain.csproj": {
+    "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/erim/Desktop/XSample/Domain/Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "/home/erim/Desktop/XSample/Domain/Domain.csproj",
-        "packagesPath": "/home/erim/.nuget/packages/",
-        "outputPath": "/home/erim/Desktop/XSample/Domain/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/erim/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/erim/Desktop/XSample/Infrastructure/Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/erim/Desktop/XSample/Infrastructure/Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "/home/erim/Desktop/XSample/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/home/erim/.nuget/packages/",
-        "outputPath": "/home/erim/Desktop/XSample/Infrastructure/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/erim/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "/home/erim/Desktop/XSample/Application/Application.csproj": {
-                "projectPath": "/home/erim/Desktop/XSample/Application/Application.csproj"
-              },
-              "/home/erim/Desktop/XSample/Domain/Domain.csproj": {
-                "projectPath": "/home/erim/Desktop/XSample/Domain/Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Npgsql": {
-              "target": "Package",
-              "version": "[5.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/erim/Desktop/XSample/Persistence/Persistence.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/erim/Desktop/XSample/Persistence/Persistence.csproj",
+        "projectUniqueName": "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/home/erim/Desktop/XSample/Persistence/Persistence.csproj",
+        "projectPath": "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj",
         "packagesPath": "/home/erim/.nuget/packages/",
-        "outputPath": "/home/erim/Desktop/XSample/Persistence/obj/",
+        "outputPath": "/home/erim/Desktop/Repo/XSample/Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/erim/.nuget/NuGet/NuGet.Config"
@@ -212,11 +84,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/erim/Desktop/XSample/Domain/Domain.csproj": {
-                "projectPath": "/home/erim/Desktop/XSample/Domain/Domain.csproj"
-              },
-              "/home/erim/Desktop/XSample/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/erim/Desktop/XSample/Infrastructure/Infrastructure.csproj"
+              "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj": {
+                "projectPath": "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj"
               }
             }
           }
@@ -234,6 +103,22 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.78, )"
+            },
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "FluentMigrator.Runner.Postgres": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.3, )"
             }
           },
           "imports": [
@@ -247,9 +132,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

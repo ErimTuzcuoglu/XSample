@@ -1,6 +1,7 @@
 using System;
 using System.Data;
 using Domain.Entity;
+using Domain.Interface.Persistence.Repository;
 using Microsoft.Extensions.Configuration;
 using Persistence.Data.Repository;
 using Persistence.Data.Repository.Contract;
@@ -33,22 +34,22 @@ namespace Persistence.Data.UnitOfWork
 
         public IGenericRepository<Category> CategoryRepository
         {
-            get { return _categoryRepository ??= new GenericRepository<Category>(_transaction, _configuration); }
+            get { return _categoryRepository ??= new GenericRepository<Category>(_connection, _transaction, _configuration); }
         }
 
         public IGenericRepository<Country> CountryRepository
         {
-            get { return _countryRepository ??= new GenericRepository<Country>(_transaction, _configuration); }
+            get { return _countryRepository ??= new GenericRepository<Country>(_connection, _transaction, _configuration); }
         }
 
         public IGenericRepository<SubCategory> SubCategoryRepository
         {
-            get { return _subCategoryRepository ??= new GenericRepository<SubCategory>(_transaction, _configuration); }
+            get { return _subCategoryRepository ??= new GenericRepository<SubCategory>(_connection, _transaction, _configuration); }
         }
 
         public IExtendedRepository<Product> ProductRepository
         {
-            get { return _productRepository ??= new ExtendedRepository<Product>(_transaction, _configuration); }
+            get { return _productRepository ??= new ExtendedRepository<Product>(_connection, _transaction, _configuration); }
         }
 
         public void Commit()

@@ -4,7 +4,7 @@ using XSample.Common;
 
 namespace Domain.Entity
 {
-    public class Category: IBaseEntity<int>
+    public class Category
     {
         public int Id { get; set; }
         public string Name { get; set; }

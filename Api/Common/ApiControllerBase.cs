@@ -1,3 +1,5 @@
+using System.Threading.Tasks;
+using Application.Orchestrator;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
@@ -5,11 +7,17 @@ using Microsoft.Extensions.DependencyInjection;
 namespace XSample.Common
 {
     [ApiController]
-    [Route("[controller]")]
-    public abstract class ApiControllerBase : ControllerBase
+    [Route("api/[controller]")]
+    public abstract class ApiControllerBase<T> : ControllerBase where T : ApiControllerBase<T>
     {
-        private ISender _mediator;
+        protected IActionResult ReturnRequestResult(Response requestResult)
+        {
+            if (requestResult.Succeeded)
+            {
+                return Ok(requestResult);
+            }
 
-        public ISender Mediator => _mediator ??= HttpContext.RequestServices.GetService<ISender>();
+            return BadRequest(requestResult);
+        }
     }
 }

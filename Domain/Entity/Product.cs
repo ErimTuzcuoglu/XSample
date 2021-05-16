@@ -3,7 +3,7 @@ using XSample.Common;
 
 namespace Domain.Entity
 {
-    public class Product: IBaseEntity<long>, IAuditableEntity
+    public class Product: IBaseEntity
     {
         public long Id { get; set; }
         public int SubCategoryId { get; set; }

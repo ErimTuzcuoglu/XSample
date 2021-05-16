@@ -6,6 +6,10 @@
 
     <ItemGroup>
       <PackageReference Include="Dapper" Version="2.0.78" />
+      <PackageReference Include="FluentMigrator" Version="3.2.15" />
+      <PackageReference Include="FluentMigrator.Runner" Version="3.2.15" />
+      <PackageReference Include="FluentMigrator.Runner.Postgres" Version="3.2.15" />
+      <PackageReference Include="Npgsql" Version="5.0.3" />
     </ItemGroup>
 
     <ItemGroup>
@@ -15,12 +19,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Domain\Domain.csproj" />
-      <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Folder Include="Data\Repository\Custom" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
 </Project>

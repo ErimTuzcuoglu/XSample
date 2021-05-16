@@ -5,63 +5,55 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Dapper;
+using Domain.Interface.Persistence.Repository;
 using Infrastructure.Service;
 using Microsoft.Extensions.Configuration;
-using Persistence.Data.Repository.Contract;
 
 namespace Persistence.Data.Repository
 {
     public class GenericRepository<T> : ConnectionHelper, IGenericRepository<T> where T : class
     {
         private readonly string _tableName;
-        protected IDbTransaction Transaction { get; private set; }
+        private IDbTransaction Transaction { get; set; }
+        private IDbConnection Connection { get; set; }
 
-        public GenericRepository(IDbTransaction transaction, IConfiguration configuration) : base(
+        public GenericRepository(IDbConnection connection, IDbTransaction transaction,
+            IConfiguration configuration) : base(
             configuration)
         {
-            _tableName = typeof(T).GetType().Name;
+            _tableName = typeof(T).Name;
             Transaction = transaction;
+            Connection = connection;
         }
 
         public async Task<IEnumerable<T>> GetAllAsync()
         {
-            using (var connection = CreateConnection())
-            {
-                return await connection.QueryAsync<T>($"SELECT * FROM {_tableName}", transaction: Transaction);
-            }
+            return await Connection.QueryAsync<T>($"SELECT * FROM \"{_tableName}\"", transaction: Transaction);
         }
 
         public async Task DeleteRowAsync(Guid id)
         {
-            using (var connection = CreateConnection())
-            {
-                await connection.ExecuteAsync($"DELETE FROM {_tableName} WHERE Id=@Id", new {Id = id},
-                    transaction: Transaction);
-            }
+            await Connection.ExecuteAsync($"DELETE FROM \"{_tableName}\" WHERE Id=@Id", new {Id = id},
+                transaction: Transaction);
         }
 
         public async Task<T> GetAsync(Guid id)
         {
-            using (var connection = CreateConnection())
-            {
-                var result =
-                    await connection.QuerySingleOrDefaultAsync<T>($"SELECT * FROM {_tableName} WHERE Id=@Id",
-                        new {Id = id}, transaction: Transaction);
-                if (result == null)
-                    throw new KeyNotFoundException($"{_tableName} with id [{id}] could not be found.");
+            var result =
+                await Connection.QuerySingleOrDefaultAsync<T>($"SELECT * FROM \"{_tableName}\" WHERE Id=@Id",
+                    new {Id = id}, transaction: Transaction);
+            if (result == null)
+                throw new KeyNotFoundException($"\"{_tableName}\" with id [{id}] could not be found.");
 
-                return result;
-            }
+            return result;
         }
 
         public async Task<int> SaveRangeAsync(IEnumerable<T> list)
         {
             var inserted = 0;
             var query = GenerateInsertQuery();
-            using (var connection = CreateConnection())
-            {
-                inserted += await connection.ExecuteAsync(query, list);
-            }
+
+            inserted += await Connection.ExecuteAsync(query, list);
 
             return inserted;
         }
@@ -69,15 +61,13 @@ namespace Persistence.Data.Repository
         public async Task UpdateAsync(T t)
         {
             var updateQuery = GenerateUpdateQuery();
-            using (var connection = CreateConnection())
-            {
-                await connection.ExecuteAsync(updateQuery, transaction: Transaction);
-            }
+
+            await Connection.ExecuteAsync(updateQuery, transaction: Transaction);
         }
 
         private string GenerateUpdateQuery()
         {
-            var updateQuery = new StringBuilder($"UPDATE {_tableName} SET ");
+            var updateQuery = new StringBuilder($"UPDATE \"{_tableName}\" SET ");
             var properties = GenerateList.GenerateListOfProperties(GetProperties);
 
             properties.ForEach(property =>
@@ -98,15 +88,12 @@ namespace Persistence.Data.Repository
         {
             var insertQuery = GenerateInsertQuery();
 
-            using (var connection = CreateConnection())
-            {
-                await connection.ExecuteAsync(insertQuery, transaction: Transaction);
-            }
+            await Connection.ExecuteAsync(insertQuery, transaction: Transaction);
         }
 
         private string GenerateInsertQuery()
         {
-            var insertQuery = new StringBuilder($"INSERT INTO {_tableName} ");
+            var insertQuery = new StringBuilder($"INSERT INTO \"{_tableName}\" ");
 
             insertQuery.Append("(");
 

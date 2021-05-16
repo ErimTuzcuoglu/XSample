@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hWKkoKScOj7YZxUqeMK1+vyxTa2oItD7Y650USs843w4EjAdSX0D+s550mZwDADFe0SrNczr2vq4PyJWw5resQ==",
+  "dgSpecHash": "oR2xGizwNKvGiIlk5/8hcOj8L0qtgtTlUpItM31tymCZUrIvbTQ0QjAaPqHjKBYTnZBIwNeUuOr/fseLwO0jaA==",
   "success": true,
-  "projectFilePath": "/home/erim/Desktop/XSample/Domain/Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/erim/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
