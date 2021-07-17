@@ -21,7 +21,6 @@
 /home/erim/Desktop/Repo/XSample/Persistence/bin/Debug/net5.0/Persistence.pdb
 /home/erim/Desktop/Repo/XSample/Persistence/bin/Debug/net5.0/Domain.dll
 /home/erim/Desktop/Repo/XSample/Persistence/bin/Debug/net5.0/Domain.pdb
-/home/erim/Desktop/Repo/XSample/Persistence/obj/Debug/net5.0/Persistence.csprojAssemblyReference.cache
 /home/erim/Desktop/Repo/XSample/Persistence/obj/Debug/net5.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
 /home/erim/Desktop/Repo/XSample/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfoInputs.cache
 /home/erim/Desktop/Repo/XSample/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfo.cs
@@ -30,3 +29,4 @@
 /home/erim/Desktop/Repo/XSample/Persistence/obj/Debug/net5.0/Persistence.dll
 /home/erim/Desktop/Repo/XSample/Persistence/obj/Debug/net5.0/ref/Persistence.dll
 /home/erim/Desktop/Repo/XSample/Persistence/obj/Debug/net5.0/Persistence.pdb
+/home/erim/Desktop/Repo/XSample/Persistence/obj/Debug/net5.0/Persistence.csproj.AssemblyReference.cache

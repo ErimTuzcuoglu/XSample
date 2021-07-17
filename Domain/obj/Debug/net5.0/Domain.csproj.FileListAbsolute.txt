@@ -14,7 +14,6 @@
 /home/erim/Desktop/Repo/XSample/Domain/bin/Debug/net5.0/Domain.dll
 /home/erim/Desktop/Repo/XSample/Domain/bin/Debug/net5.0/ref/Domain.dll
 /home/erim/Desktop/Repo/XSample/Domain/bin/Debug/net5.0/Domain.pdb
-/home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/Domain.csprojAssemblyReference.cache
 /home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
 /home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache
 /home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
@@ -22,3 +21,4 @@
 /home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/Domain.dll
 /home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/ref/Domain.dll
 /home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/Domain.pdb
+/home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache

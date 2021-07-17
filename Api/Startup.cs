@@ -1,4 +1,5 @@
 using Infrastructure.Extension;
+using Infrastructure.Filter;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -21,7 +22,7 @@ namespace XSample
         {
             ConfigureServiceContainer.EnsureDatabaseAndStartMigrations(Configuration);
 
-            services.AddControllers();
+            services.AddControllers(options => { options.Filters.Add(typeof(CustomExceptionFilter)); });
             ConfigureServiceContainer.AddServices(services, Configuration);
         }
 

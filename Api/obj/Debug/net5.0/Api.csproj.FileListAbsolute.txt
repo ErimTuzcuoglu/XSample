@@ -118,7 +118,6 @@
 /home/erim/Desktop/Repo/XSample/Api/bin/Debug/net5.0/Application.pdb
 /home/erim/Desktop/Repo/XSample/Api/bin/Debug/net5.0/Domain.pdb
 /home/erim/Desktop/Repo/XSample/Api/bin/Debug/net5.0/Persistence.pdb
-/home/erim/Desktop/Repo/XSample/Api/obj/Debug/net5.0/Api.csprojAssemblyReference.cache
 /home/erim/Desktop/Repo/XSample/Api/obj/Debug/net5.0/Api.GeneratedMSBuildEditorConfig.editorconfig
 /home/erim/Desktop/Repo/XSample/Api/obj/Debug/net5.0/Api.AssemblyInfoInputs.cache
 /home/erim/Desktop/Repo/XSample/Api/obj/Debug/net5.0/Api.AssemblyInfo.cs
@@ -134,3 +133,4 @@
 /home/erim/Desktop/Repo/XSample/Api/obj/Debug/net5.0/ref/Api.dll
 /home/erim/Desktop/Repo/XSample/Api/obj/Debug/net5.0/Api.pdb
 /home/erim/Desktop/Repo/XSample/Api/obj/Debug/net5.0/Api.genruntimeconfig.cache
+/home/erim/Desktop/Repo/XSample/Api/obj/Debug/net5.0/Api.csproj.AssemblyReference.cache

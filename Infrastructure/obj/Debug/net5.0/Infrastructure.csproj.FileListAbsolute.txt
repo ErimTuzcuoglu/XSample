@@ -27,7 +27,6 @@
 /home/erim/Desktop/Repo/XSample/Infrastructure/bin/Debug/net5.0/Application.pdb
 /home/erim/Desktop/Repo/XSample/Infrastructure/bin/Debug/net5.0/Domain.pdb
 /home/erim/Desktop/Repo/XSample/Infrastructure/bin/Debug/net5.0/Persistence.pdb
-/home/erim/Desktop/Repo/XSample/Infrastructure/obj/Debug/net5.0/Infrastructure.csprojAssemblyReference.cache
 /home/erim/Desktop/Repo/XSample/Infrastructure/obj/Debug/net5.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 /home/erim/Desktop/Repo/XSample/Infrastructure/obj/Debug/net5.0/Infrastructure.AssemblyInfoInputs.cache
 /home/erim/Desktop/Repo/XSample/Infrastructure/obj/Debug/net5.0/Infrastructure.AssemblyInfo.cs
@@ -36,3 +35,4 @@
 /home/erim/Desktop/Repo/XSample/Infrastructure/obj/Debug/net5.0/Infrastructure.dll
 /home/erim/Desktop/Repo/XSample/Infrastructure/obj/Debug/net5.0/ref/Infrastructure.dll
 /home/erim/Desktop/Repo/XSample/Infrastructure/obj/Debug/net5.0/Infrastructure.pdb
+/home/erim/Desktop/Repo/XSample/Infrastructure/obj/Debug/net5.0/Infrastructure.csproj.AssemblyReference.cache

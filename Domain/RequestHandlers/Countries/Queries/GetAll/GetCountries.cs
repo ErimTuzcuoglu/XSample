@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
@@ -27,6 +28,7 @@ namespace Domain.RequestHandlers.Countries.Queries.GetAll
                 Id = country.Id,
                 Name = country.Name
             });
+            throw new ArgumentException("sdf");
             return countries;
         }
     }
