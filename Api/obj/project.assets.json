@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Dapper/2.0.78": {
         "type": "package",
         "compile": {
@@ -661,7 +661,7 @@
       },
       "Application/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Domain": "1.0.0"
         },
@@ -674,7 +674,7 @@
       },
       "Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "MediatR": "9.0.0"
         },
@@ -687,7 +687,7 @@
       },
       "Infrastructure/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Application": "1.0.0",
           "Domain": "1.0.0",
@@ -701,14 +701,11 @@
         },
         "runtime": {
           "bin/placeholder/Infrastructure.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Persistence/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Dapper": "2.0.78",
           "Domain": "1.0.0",
@@ -1853,7 +1850,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Infrastructure >= 1.0.0"
     ]
   },
@@ -1863,27 +1860,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/erim/Desktop/Repo/XSample/Api/Api.csproj",
+      "projectUniqueName": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Api/Api.csproj",
       "projectName": "Api",
-      "projectPath": "/home/erim/Desktop/Repo/XSample/Api/Api.csproj",
+      "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Api/Api.csproj",
       "packagesPath": "/home/erim/.nuget/packages/",
-      "outputPath": "/home/erim/Desktop/Repo/XSample/Api/obj/",
+      "outputPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/erim/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/erim/Desktop/Repo/XSample/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/home/erim/Desktop/Repo/XSample/Infrastructure/Infrastructure.csproj"
+            "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Infrastructure/Infrastructure.csproj"
             }
           }
         }
@@ -1895,8 +1892,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -1915,7 +1912,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

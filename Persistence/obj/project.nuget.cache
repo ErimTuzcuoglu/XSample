@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JGs3/X3c/GhR1rDmJSSCS/q25cpE0eCyn9RZuZykqC2oCklpwSDIUoRUXddgTvXWhIBuCqGdeDEungQLzUfrOQ==",
+  "dgSpecHash": "oRVwiMrjEcym1P3SzeSyvpQ4LIQPM0bm/WTC0c38MaUm7tef7D5NYFFH3EAkxwjDMFn8wBPSZ7bjPSyk4w6CSQ==",
   "success": true,
-  "projectFilePath": "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj",
+  "projectFilePath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Persistence/Persistence.csproj",
   "expectedPackageFiles": [
     "/home/erim/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
     "/home/erim/.nuget/packages/fluentmigrator/3.2.15/fluentmigrator.3.2.15.nupkg.sha512",

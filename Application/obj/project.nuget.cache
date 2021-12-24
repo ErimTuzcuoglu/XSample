@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qUj1ItAgZ67Qq93SI8W0qZo6GRker804Ms1A30LvzOjfcYikBHpQqx4DckdIcrxu+RrPExpZdFyRvsD4Udjmpg==",
+  "dgSpecHash": "2bNsApDK9CmYAP4PWUFYjcyMykA435Bny9T8Y7WFgNwxCuR8qTeUVhD+I8tZwGxFXY9gBHjIje6cu1HH0sQGkg==",
   "success": true,
-  "projectFilePath": "/home/erim/Desktop/Repo/XSample/Application/Application.csproj",
+  "projectFilePath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Application/Application.csproj",
   "expectedPackageFiles": [
     "/home/erim/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512"
   ],

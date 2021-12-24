@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4NZA1/6QrY3npvVdibFk19nrbghhFOsdbv2YekiwksUFErgSroe4DdGt/djr85QD+YfmSh+5etRTZbsGbsNybA==",
+  "dgSpecHash": "RtnT7/4s5xiRRFXdAXGYY2LFjngoNrAF9IKk4V4AHY07C+3UsysF8lE3WA6WA/puZCkKQOWGFtHYSrJbzV6sPQ==",
   "success": true,
-  "projectFilePath": "/home/erim/Desktop/Repo/XSample/Api/Api.csproj",
+  "projectFilePath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Api/Api.csproj",
   "expectedPackageFiles": [
     "/home/erim/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
     "/home/erim/.nuget/packages/fluentmigrator/3.2.15/fluentmigrator.3.2.15.nupkg.sha512",

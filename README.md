@@ -6,6 +6,6 @@ XSample is an example clean architecture project made with .Net Core 5.0.
 
 - Dapper
 - PostgreSQL
-- MediatR (Coming Soon)
+- MediatR
 - ASP.NET Core Identity (Coming Soon)
 - FluentValidation (Coming Soon)

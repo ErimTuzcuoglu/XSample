@@ -28,6 +28,7 @@ namespace Domain.RequestHandlers.Countries.Queries.GetAll
                 Id = country.Id,
                 Name = country.Name
             });
+            
             throw new ArgumentException("sdf");
             return countries;
         }

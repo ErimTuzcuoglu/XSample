@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/erim/Desktop/Repo/XSample/Api/Api.csproj": {}
+    "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Api/Api.csproj": {}
   },
   "projects": {
-    "/home/erim/Desktop/Repo/XSample/Api/Api.csproj": {
+    "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/erim/Desktop/Repo/XSample/Api/Api.csproj",
+        "projectUniqueName": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/home/erim/Desktop/Repo/XSample/Api/Api.csproj",
+        "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Api/Api.csproj",
         "packagesPath": "/home/erim/.nuget/packages/",
-        "outputPath": "/home/erim/Desktop/Repo/XSample/Api/obj/",
+        "outputPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/erim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/erim/Desktop/Repo/XSample/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/erim/Desktop/Repo/XSample/Infrastructure/Infrastructure.csproj"
+              "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -39,8 +39,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -59,34 +59,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/erim/Desktop/Repo/XSample/Application/Application.csproj": {
+    "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/erim/Desktop/Repo/XSample/Application/Application.csproj",
+        "projectUniqueName": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/erim/Desktop/Repo/XSample/Application/Application.csproj",
+        "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Application/Application.csproj",
         "packagesPath": "/home/erim/.nuget/packages/",
-        "outputPath": "/home/erim/Desktop/Repo/XSample/Application/obj/",
+        "outputPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/erim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj": {
-                "projectPath": "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj"
+              "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/Domain.csproj": {
+                "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/Domain.csproj"
               }
             }
           }
@@ -98,8 +98,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -115,31 +115,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj": {
+    "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj",
+        "projectUniqueName": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj",
+        "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/Domain.csproj",
         "packagesPath": "/home/erim/.nuget/packages/",
-        "outputPath": "/home/erim/Desktop/Repo/XSample/Domain/obj/",
+        "outputPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/erim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -150,8 +150,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -173,40 +173,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/erim/Desktop/Repo/XSample/Infrastructure/Infrastructure.csproj": {
+    "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/erim/Desktop/Repo/XSample/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/erim/Desktop/Repo/XSample/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/erim/.nuget/packages/",
-        "outputPath": "/home/erim/Desktop/Repo/XSample/Infrastructure/obj/",
+        "outputPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/erim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/erim/Desktop/Repo/XSample/Application/Application.csproj": {
-                "projectPath": "/home/erim/Desktop/Repo/XSample/Application/Application.csproj"
+              "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Application/Application.csproj": {
+                "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Application/Application.csproj"
               },
-              "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj": {
-                "projectPath": "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj"
+              "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/Domain.csproj": {
+                "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/Domain.csproj"
               },
-              "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj": {
-                "projectPath": "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj"
+              "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Persistence/Persistence.csproj": {
+                "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Persistence/Persistence.csproj"
               }
             }
           }
@@ -218,8 +218,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -245,41 +245,38 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj": {
+    "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj",
+        "projectUniqueName": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/home/erim/Desktop/Repo/XSample/Persistence/Persistence.csproj",
+        "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Persistence/Persistence.csproj",
         "packagesPath": "/home/erim/.nuget/packages/",
-        "outputPath": "/home/erim/Desktop/Repo/XSample/Persistence/obj/",
+        "outputPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/erim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj": {
-                "projectPath": "/home/erim/Desktop/Repo/XSample/Domain/Domain.csproj"
+              "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/Domain.csproj": {
+                "projectPath": "/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/Domain.csproj"
               }
             }
           }
@@ -291,8 +288,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -330,7 +327,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

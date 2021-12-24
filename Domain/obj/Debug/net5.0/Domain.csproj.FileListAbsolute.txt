@@ -22,3 +22,15 @@
 /home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/ref/Domain.dll
 /home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/Domain.pdb
 /home/erim/Desktop/Repo/XSample/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/bin/Debug/net5.0/Domain.deps.json
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/bin/Debug/net5.0/Domain.dll
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/bin/Debug/net5.0/ref/Domain.dll
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/bin/Debug/net5.0/Domain.pdb
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/obj/Debug/net5.0/Domain.dll
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/obj/Debug/net5.0/ref/Domain.dll
+/media/erim/88E414A8E4149A90/Files/Calismalar/Calismalar/Proje/XSample/Domain/obj/Debug/net5.0/Domain.pdb
