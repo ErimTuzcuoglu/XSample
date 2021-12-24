@@ -1,6 +1,6 @@
 # XSample
 
-XSample is an example clean architecture project made with .Net Core 5.0.
+XSample is an example clean architecture project made with .Net Core 6.0.
 
 ## Used Technologies
 
